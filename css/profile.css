@@ -1,0 +1,152 @@
+html,
+body,
+header,
+.view ,
+.jarallax {
+  height: 100%;
+  font-family: 'Playfair Display', serif !important;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 2.3rem !important;
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 12px;
+  right: 20px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.float-facebook {
+  /*bottom:110px;*/
+  right: 95px;
+  background-color: #4267B2;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+.line-height-base {
+  line-height: 1.8rem;
+}
+
+.text-size {
+  font-size: 1.4rem;
+}
+
+.play-fair-bold {
+  font-family: 'Playfair Display', serif ;
+  font-weight: bold;
+}
+
+.img-fondateur {
+  max-width: 460px; 
+  max-height:500px
+
+}
+
+
+/* Carousel*/
+.carousel,
+.carousel-item,
+.carousel-item.active {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item:nth-child(1) {
+  background-image: url("../img/IMG_8540_resized-min.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  object-fit: cover;
+
+}
+
+.carousel-item:nth-child(2) {
+  background-image: url("../img/IMG_8539_resized-min.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  object-fit: cover;
+  
+}
+
+.carousel-item:nth-child(3) {
+  background-image: url("../img/IMG_8552_resized-min.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  object-fit: cover;
+  
+}
+.carousel-item:nth-child(4) {
+  background-image: url("../img/IMG_8524_resized-min.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  object-fit: cover;
+  
+}
+
+
+
+.map-container-section {
+  overflow: hidden;
+  position: relative;
+  height: 0;
+}
+.map-container-section iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+
+
+@media (min-width: 451px) and (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 500px;
+  }
+
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 550px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-item:nth-child(2) {
+    /* background-size: 100%, 25%, 25%; */
+    background-position: 30% center;
+  }
+
+  .img-fondateur {
+    max-width: 300px !important; 
+    
+  }
+}
